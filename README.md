@@ -49,3 +49,12 @@ Builder: 0.29
 Enabler: 0.29
 Thriver: 0.21
 Supportee: 0.21
+
+This is the assessment that is been asked to perform, but I have few questions and ideas to increase the quality or approach.
+First of all, thank you for giving me this opportunity to work or build towards this idea. I was genuinely enjoying building this project and I see a god scope of this in the future hopefully replacing ATS systems :D
+
+Secondly, there are gaps which I noticed in this area. A person cannot be a builder only and Im guessing the company dont weant to hire only a builder or Enabler or Supportee, they want  a blend of these with different proportions like for a HR you need to have a Dominant Enabler, Great Supportee, Best Thriver and Good Builder. This might be different for different positions like AI engineer, or Marketing Analyst or Product Manager and also depends on Seniority. So displaying all the values with different positions will be more helpful...!!
+
+Thirdly, the summary is not the aligned to the resume context rather than RoleColor scores. In order for this to be implimented, we would require a RAG based LLM model(Summarizer models like BART/Pegasus) which would take the uploaded resume and the scores and generate a summary of this system that could be more reliable than the answer we produce.
+
+And Finally, I felt this was a very good idea to be implimented in the hiring domain. All the best to the team and hope to see you on the other side.
