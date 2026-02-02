@@ -3,19 +3,19 @@ import spacy
 from collections import Counter
 
 ROLECOLOR_KEYWORDS = {
-    "Builder": [
+    "Builder🔴": [
         "strategy", "vision", "innovation", "architecture",
         "design", "scalable", "roadmap", "ownership", "product", "data"
     ],
-    "Enabler": [
+    "Enabler🔵": [
         "collaborate", "stakeholder", "communicate", "align",
         "coordinate", "mentor", "cross", "functional", "lead"
     ],
-    "Thriver": [
+    "Thriver🟡": [
         "fast-paced", "deadline", "pressure", "execution",
         "delivery", "agile", "adapt", "problem-solving", "accuracy"
     ],
-    "Supportee": [
+    "Supportee🟢": [
         "reliability", "maintenance", "documentation",
         "testing", "monitoring", "support", "stability"
     ]
@@ -49,22 +49,22 @@ def dominant_role(scores):
 
 # These are Sample Summaries which can be modified according to the role.
 SUMMARY_TEMPLATES = {
-    "Builder": (
+    "Builder🔴": (
         "Strategic professional with a strong focus on innovation, system design, "
         "and long-term impact. Known for driving scalable solutions, owning outcomes, "
         "and shaping products that support business growth."
     ),
-    "Enabler": (
+    "Enabler🔵": (
         "Collaborative professional who excels at connecting teams, aligning stakeholders, "
         "and enabling smooth execution. Brings clarity across functions and helps teams "
         "deliver effectively together."
     ),
-    "Thriver": (
+    "Thriver🟡": (
         "Execution-focused professional who thrives in fast-paced environments. "
         "Proven ability to deliver under pressure, adapt quickly, and solve problems "
         "when timelines are tight."
     ),
-    "Supportee": (
+    "Supportee🟢": (
         "Reliability-driven professional focused on stability, quality, and long-term support. "
         "Ensures systems run smoothly through documentation, testing, and consistent maintenance."
     )
